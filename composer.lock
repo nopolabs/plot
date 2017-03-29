@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f9a28d590998d8968b1bb6131655be1b",
+    "packages": [
+        {
+            "name": "davefx/phplot",
+            "version": "6.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davefx/PHPlot.git",
+                "reference": "d2e201ecaabb0428116c89cebe281a8f54096450"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davefx/PHPlot/zipball/d2e201ecaabb0428116c89cebe281a8f54096450",
+                "reference": "d2e201ecaabb0428116c89cebe281a8f54096450",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "phplot/"
+                ]
+            },
+            "license": [
+                "LGPL"
+            ],
+            "description": "PHPlot - Create charts in PHP",
+            "homepage": "http://phplot.sourceforge.net",
+            "keywords": [
+                "chart",
+                "phplot"
+            ],
+            "support": {
+                "source": "https://github.com/davefx/PHPlot/tree/6.2.1",
+                "issues": "https://github.com/davefx/PHPlot/issues"
+            },
+            "time": "2016-10-19T07:14:15+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

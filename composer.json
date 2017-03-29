@@ -1,0 +1,22 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/davefx/PHPlot"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "davefx/PHPlot": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nopolabs\\Plot\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nopolabs\\Plot\\Tests\\": "tests"
+        }
+    }
+}
